@@ -1,10 +1,10 @@
 # Terra 🌱 — The Earth
 
-A small, round, grounded earth/rock-shaped doodle with expressive eyes, tiny limbs, and a patch of moss. Reliable, foundational, and sturdy.
+An irregular, slightly lumpy round rock shape with expressive dot eyes, tiny U-shaped limbs, and a thick patch of moss hugging exactly the right-side edge of its body. Reliable, foundational, and sturdy.
 
 **Color Codification:** 
-- Base: Off-white/light gray with minimalist line art.
-- Moss Patch: **GattyWorks Teal (#00ADB5)**. The moss acts as the single accent moment per illustration and must strictly adhere to this teal color.
+- Base: Pure flat white fill (`#FFFFFF`) with thick black outlines.
+- Moss Patch: **GattyWorks Teal (#00ADB5)**. The moss acts as the single accent moment per illustration and must strictly adhere to this teal color. It is always positioned on the right side of Terra's body.
 
 ## Transformations
 Can transform into: 

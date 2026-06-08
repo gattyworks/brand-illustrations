@@ -1,26 +1,22 @@
 # Brand Style DNA
 
-This document outlines the visual style constraints for generating illustrations for the brand.
+This document outlines the strict visual style constraints for generating illustrations for the brand. **It is absolutely critical that the generated image perfectly matches these constraints to maintain consistency.**
 
-## 1. Overall Vibe
-- Minimalist whiteboard explainer doodle.
-- Cute, simple, and highly expressive.
-- Very clean and flat (absolutely no shading or 3D elements).
+## 1. Overall Vibe & Linework
+- **Aesthetic**: Minimalist flat geometric vector illustration. Cute, simple, and corporate tech doodle style.
+- **Linework**: VERY THICK, consistent, continuous solid black outlines (`#000000`). No tapered ends, no sketchiness, no pen pressure. All lines must be monoweight and incredibly clean.
+- **Shapes**: Clean, precise geometric shapes (perfect circles, smooth crescents). Tiny, simple U-shaped thick lines for legs and arms. No detailed appendages.
 
-## 2. Line Art & Colors
-- **Art Style**: Hand-drawn doodle line art with black outlines.
-- **Fills**: Pure white fill for characters and objects (not transparent).
-- **Faces**: Simple dot eyes and a small curved line for a mouth.
-- **Backgrounds**: Clean light surfaces (pure white `#FFFFFF`).
-- **Color Accents**: Follow the **GattyWorks Design Language**. The primary color is **Midnight Teal**. The teal is load-bearing. Use exactly **one accent moment per illustration** (e.g., a single teal arrow, or one teal element). Do not dilute with too many colors.
+## 2. Colors & Fills
+- **Fills**: Pure, flat 100% white (`#FFFFFF`) fill for all characters and objects. 
+- **NO Shading**: Absolutely NO gradients, NO shadows, NO highlights, NO 3D effects. Everything must be perfectly 2D flat.
+- **Backgrounds**: Clean, pure white surfaces.
+- **Accent Color Rule**: Use **exactly ONE accent moment** per illustration (e.g., GattyWorks Teal `#00ADB5`). No other colors should be used. Do not dilute the image with multiple colors. The teal should be a solid flat fill with thick black outlines.
 
-## 3. GattyWorks Brand Elements
-- Illustrations should feel like they were sketched by a senior GattyWorks designer on a clean whiteboard.
-- **Typography**: If text is drawn, it should mimic clean, geometric sans-serif (reminiscent of Google Sans).
-- Characters should be highly expressive (use varying emotions like excited, confused, eureka, sleepy) but retain the simple dot-eye facial structure.
+## 3. Facial Features
+- **Eyes**: Simple, thick black dots.
+- **Mouths**: Small, simple U-shaped curves for smiles, or open half-circles with a solid black fill. No teeth, no lips.
+- **Expressions**: Keep it minimal. Do not add complex facial wrinkles or eyebrows unless strictly necessary for an extreme emotion.
 
-## 4. Comic Elements (Optional)
-- Speech bubbles (rounded, hand-drawn).
-- Thought bubbles (cloud-shaped).
-- Sound effects (hand-drawn bold text like POP! WHOOSH!).
-- **Constraint**: If using text, keep it to 1-3 words max to ensure the AI image generator spells it correctly.
+## 4. Canonical Style Reference
+- To guarantee this style, **the prompt must ALWAYS include a reference image (Image-to-Image / Style Reference)**. See `system/prompt-template.md` for instructions on how to use the reference image URL or file.
