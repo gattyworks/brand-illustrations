@@ -18,7 +18,17 @@ Unlike hardcoded illustration generators, this repository is built to be **dynam
 3. **The AI does the casting:** When you ask the AI to illustrate a concept (e.g., "API Rate Limiting"), the framework's internal logic reads your character files, analyzes their personalities and technical metaphors, and automatically "casts" the best characters for the job.
 
 ### Out-of-the-Box Defaults
-The repository comes pre-loaded with a minimalist whiteboard doodle style and 5 elemental Gattyworks characters (Terra, Spark, Aqua, Ignis, Aero). You can use these immediately or replace them entirely with your own IP!
+The repository comes pre-loaded with a minimalist whiteboard doodle style and 5 elemental Gattyworks characters. You can use these immediately or replace them entirely with your own IP!
+
+| Emoji | Character & Role | Visual Reference |
+| :---: | :--- | :---: |
+| 🪨 | **[Terra](characters/terra.md)** <br> The Rock (Foundation, Storage) | <img src="characters/references/terra-ref.png" width="250" alt="Terra Reference"> |
+| ⚡ | **[Spark](characters/spark.md)** <br> The Lightning (Speed, Connection) | <img src="characters/references/spark-ref.png" width="250" alt="Spark Reference"> |
+| 💧 | **[Aqua](characters/aqua.md)** <br> The Water (Flow, Pipeline) | <img src="characters/references/aqua-ref.png" width="250" alt="Aqua Reference"> |
+| 🔥 | **[Ignis](characters/ignis.md)** <br> The Flame (Execution, Error) | <img src="characters/references/ignis-ref.png" width="250" alt="Ignis Reference"> |
+| ☁️ | **[Aero](characters/aero.md)** <br> The Cloud (Network, Floating) | <img src="characters/references/aero-ref.png" width="250" alt="Aero Reference"> |
+
+*(Click any character name to see their full profile and expression range!)*
 
 ---
 
