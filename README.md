@@ -16,6 +16,29 @@ By default, the repository comes populated with 5 placeholder elemental characte
 
 ---
 
+## Installation & Setup
+
+> [!TIP]
+> **🤖 Quick AI Setup (Recommended)**
+> Copy and paste this prompt to your AI coding assistant (like Antigravity, Cursor, Windsurf, or Claude) to set up this skill automatically:
+> ```text
+> Please clone the repository https://github.com/gattyworks/brand-illustrations.git into my active workspace, read SKILL.md and its references, and set up this skill so we can use it to generate technical doodles.
+> ```
+
+Or install the skill manually:
+
+### 💻 On macOS / Linux (Terminal)
+```bash
+git clone https://github.com/gattyworks/brand-illustrations.git && cd brand-illustrations && chmod +x install.sh && ./install.sh
+```
+
+### 🪟 On Windows (CMD)
+```cmd
+git clone https://github.com/gattyworks/brand-illustrations.git && cd brand-illustrations && install.bat
+```
+
+---
+
 ## Output Formats
 
 - **Square (1:1)**: For Instagram, LinkedIn, or inline documentation.
