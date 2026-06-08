@@ -11,11 +11,12 @@ This document outlines the visual style constraints for generating illustrations
 - **Art Style**: Hand-drawn doodle line art with black outlines.
 - **Fills**: Pure white fill for characters and objects (not transparent).
 - **Faces**: Simple dot eyes and a small curved line for a mouth.
-- **Backgrounds**: Pure white `#FFFFFF` background.
-- **Color Accents**: Extremely minimal. Use only 1 or 2 colors for emphasis (e.g., orange for arrows/flows, blue for text).
+- **Backgrounds**: Clean light surfaces (pure white `#FFFFFF`).
+- **Color Accents**: Follow the **GattyWorks Design Language**. The primary color is **Midnight Teal**. The teal is load-bearing. Use exactly **one accent moment per illustration** (e.g., a single teal arrow, or one teal element). Do not dilute with too many colors.
 
-## 3. Brand Elements
-- Illustrations should feel like they were sketched by an enthusiastic teacher on a whiteboard.
+## 3. GattyWorks Brand Elements
+- Illustrations should feel like they were sketched by a senior GattyWorks designer on a clean whiteboard.
+- **Typography**: If text is drawn, it should mimic clean, geometric sans-serif (reminiscent of Google Sans).
 - Characters should be highly expressive (use varying emotions like excited, confused, eureka, sleepy) but retain the simple dot-eye facial structure.
 
 ## 4. Comic Elements (Optional)
