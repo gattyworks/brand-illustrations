@@ -22,7 +22,7 @@ The repository comes pre-loaded with a minimalist whiteboard doodle style and 5 
 
 | Emoji | Character & Role | Visual Reference |
 | :---: | :--- | :---: |
-| 🪨 | **[Terra](characters/terra.md)** <br> The Rock (Foundation, Storage) | <img src="characters/references/terra-ref.png" width="250" alt="Terra Reference"> |
+| 🌱 | **[Terra](characters/terra/README.md)** <br> The Earth (Foundation, Storage). *Features a specific GattyWorks Teal (#00ADB5) moss patch.* | <img src="characters/references/terra-ref.png" width="250" alt="Terra Reference"> |
 | ⚡ | **[Spark](characters/spark.md)** <br> The Lightning (Speed, Connection) | <img src="characters/references/spark-ref.png" width="250" alt="Spark Reference"> |
 | 💧 | **[Aqua](characters/aqua.md)** <br> The Water (Flow, Pipeline) | <img src="characters/references/aqua-ref.png" width="250" alt="Aqua Reference"> |
 | 🔥 | **[Ignis](characters/ignis.md)** <br> The Flame (Execution, Error) | <img src="characters/references/ignis-ref.png" width="250" alt="Ignis Reference"> |
