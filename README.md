@@ -101,6 +101,6 @@ We'd love to see the custom characters and styles you build with this framework!
 - Want to share your custom character templates? Open a **Pull Request**.
 - Have questions? Start a **Discussion**.
 
-Please review our `CONTRIBUTING.md` guidelines before participating.
+Please review our [`CONTRIBUTING.md`](CONTRIBUTING.md) guidelines before participating.
 
 **License:** MIT License (See `LICENSE` file for details).
