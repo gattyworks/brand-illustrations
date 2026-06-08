@@ -3,19 +3,20 @@
 This document outlines the visual style constraints for generating illustrations for the brand.
 
 ## 1. Overall Vibe
-- Dudu Bubu / Goma Cat sticker energy meets whiteboard explainer.
-- Fun, educational, expressive, and alive.
-- Subtle humor and clear visual metaphors.
+- Minimalist whiteboard explainer doodle.
+- Cute, simple, and highly expressive.
+- Very clean and flat (absolutely no shading or 3D elements).
 
 ## 2. Line Art & Colors
-- **Art Style**: Hand-drawn doodle line art.
-- **Lines**: Thin hand-drawn borders, sketch-like but clean.
-- **Backgrounds**: Clean white with white gutters (subtle context hints allowed).
-- **Colors**: Primarily black and white (line art on white background) with strategic splashes of Gattyworks brand colors or character-specific colors (e.g., orange for flows, red for emphasis, or blue for notes).
+- **Art Style**: Hand-drawn doodle line art with black outlines.
+- **Fills**: Pure white fill for characters and objects (not transparent).
+- **Faces**: Simple dot eyes and a small curved line for a mouth.
+- **Backgrounds**: Pure white `#FFFFFF` background.
+- **Color Accents**: Extremely minimal. Use only 1 or 2 colors for emphasis (e.g., orange for arrows/flows, blue for text).
 
 ## 3. Brand Elements
 - Illustrations should feel like they were sketched by an enthusiastic teacher on a whiteboard.
-- Characters should be highly expressive (use varying emotions like excited, confused, eureka, sleepy).
+- Characters should be highly expressive (use varying emotions like excited, confused, eureka, sleepy) but retain the simple dot-eye facial structure.
 
 ## 4. Comic Elements (Optional)
 - Speech bubbles (rounded, hand-drawn).

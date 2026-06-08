@@ -5,18 +5,18 @@ Use these templates to construct the final prompt for the image generation model
 ## 1. Square Format (1:1) Template
 
 ```text
-[Subject/Action]: A hand-drawn doodle style whiteboard explainer illustration of [Character 1 Name] ([Character 1 Visual Description]) and [Character 2 Name] ([Character 2 Visual Description]), doing [Action/Interaction with Metaphor Object]. 
+[Subject/Action]: A minimalist black-and-white whiteboard doodle on a pure white background of [Character 1 Name] ([Character 1 Visual Description]) and [Character 2 Name] ([Character 2 Visual Description]), doing [Action/Interaction with Metaphor Object]. 
 [Composition]: Centered composition, ample negative space. 
-[Style Constraints]: Clean white background, thin hand-drawn black lines, expressive sticker energy, minimal splashes of brand colors, [Optional: comic elements like a rounded speech bubble or motion lines]. 
+[Style Constraints]: Characters and objects drawn with black outlines and pure white fill. Simple dot eyes and a small curved smile. No shading, no 3D effects, no gradients. Minimal color accents: [Specify 1-2 colors, e.g. orange arrows, blue text]. [Optional: comic elements like a rounded speech bubble]. 
 [Format Specification]: aspect ratio 1:1.
 ```
 
 ## 2. Banner Format (16:9) Template
 
 ```text
-[Subject/Action]: A hand-drawn doodle style whiteboard explainer illustration of [Character Name] ([Character Visual Description]), doing [Action/Interaction with Metaphor Object]. 
+[Subject/Action]: A minimalist black-and-white whiteboard doodle on a pure white background of [Character Name] ([Character Visual Description]), doing [Action/Interaction with Metaphor Object]. 
 [Composition]: Rule of thirds composition, character positioned on the right side, leaving the left side empty for typography. 
-[Style Constraints]: Clean white background, thin hand-drawn black lines, expressive sticker energy, minimal splashes of brand colors, [Optional: comic elements like a rounded speech bubble or motion lines]. 
+[Style Constraints]: Characters and objects drawn with black outlines and pure white fill. Simple dot eyes and a small curved smile. No shading, no 3D effects, no gradients. Minimal color accents: [Specify 1-2 colors, e.g. orange arrows, blue text]. [Optional: comic elements like a rounded speech bubble]. 
 [Format Specification]: aspect ratio 16:9.
 ```
 
