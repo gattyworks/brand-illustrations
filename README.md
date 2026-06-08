@@ -1,89 +1,87 @@
-# Brand Illustrations Framework
+# Brand Illustrations Framework 🎨
 
-> A generalized AI framework to turn concepts into **fun brand illustrations**.
->
-> Define your own cast of characters and brand style. Let the AI auto-select the best characters to act out your technical concepts, workflows, or ideas!
+Welcome to the **Brand Illustrations Framework**, a modular AI architecture designed to transform dry technical concepts into engaging, narrative-driven visual assets.
 
----
-
-## What Is This
-
-The Brand Illustrations Framework is a modular AI skill designed for Codex and Antigravity. It generates prompts for image generation models (like Midjourney or DALL-E) based on your custom IP.
-
-Instead of hardcoding a specific visual style or cast, this framework dynamically reads character definitions from the `characters/` folder and brand guidelines from the `brand/` folder. The AI automatically selects the best character(s) based on their personality and traits to illustrate the requested concept.
-
-By default, the repository comes populated with 5 placeholder elemental characters (Terra, Spark, Aqua, Ignis, Aero), but you can delete these and add your own.
+Whether you're writing technical documentation, blog posts, or creating YouTube thumbnails, this framework empowers your AI assistant (Codex, Antigravity, Claude, etc.) to automatically generate prompts featuring a consistent cast of characters in your exact brand style.
 
 ---
 
-## Installation & Setup
+## 🌟 The Core Concept
 
-> [!TIP]
-> **🤖 Quick AI Setup (Recommended)**
-> Copy and paste this prompt to your AI coding assistant (like Antigravity, Cursor, Windsurf, or Claude) to set up this skill automatically:
-> ```text
-> Please clone the repository https://github.com/gattyworks/brand-illustrations.git into my active workspace, read SKILL.md and its references, and set up this skill so we can use it to generate technical doodles.
-> ```
+Unlike hardcoded illustration generators, this repository is built to be **dynamic** and **adaptable**. 
 
-Or install the skill manually:
+1. **You define the cast:** Provide markdown profiles of your characters in the `characters/` folder.
+2. **You define the style:** Set your line-art preferences, color palettes, and typography rules in the `brand/` folder.
+3. **The AI does the casting:** When you ask the AI to illustrate a concept (e.g., "API Rate Limiting"), the framework's internal logic reads your character files, analyzes their personalities and technical metaphors, and automatically "casts" the best characters for the job.
 
-### 💻 On macOS / Linux (Terminal)
+### Out-of-the-Box Defaults
+The repository comes pre-loaded with a minimalist whiteboard doodle style and 5 elemental Gattyworks characters (Terra, Spark, Aqua, Ignis, Aero). You can use these immediately or replace them entirely with your own IP!
+
+---
+
+## 🚀 Getting Started
+
+### 1. Installation
+
+To install the framework locally or inside your AI workspace, run the following commands:
+
+**For macOS / Linux:**
 ```bash
-git clone https://github.com/gattyworks/brand-illustrations.git && cd brand-illustrations && chmod +x install.sh && ./install.sh
+git clone https://github.com/gattyworks/brand-illustrations.git
+cd brand-illustrations
+chmod +x install.sh
+./install.sh
 ```
 
-### 🪟 On Windows (CMD)
+**For Windows:**
 ```cmd
-git clone https://github.com/gattyworks/brand-illustrations.git && cd brand-illustrations && install.bat
+git clone https://github.com/gattyworks/brand-illustrations.git
+cd brand-illustrations
+install.bat
 ```
+
+> **AI Quick Setup:** You can also ask your AI assistant to run the setup for you. Simply paste: *"Clone the repository https://github.com/gattyworks/brand-illustrations.git, read SKILL.md, and initialize the illustration environment."*
+
+### 2. Usage
+
+Once installed, simply command your AI to use the framework:
+- **For a Square Image (1:1):** `Use the brand-illustrations skill to create a square image explaining database caching.`
+- **For a Banner Image (16:9):** `Use the brand-illustrations skill to create a banner thumbnail for a video about serverless deployment.`
 
 ---
 
-## Output Formats
+## 🛠 Customizing Your Brand
 
-- **Square (1:1)**: For Instagram, LinkedIn, or inline documentation.
-- **Banner (16:9)**: For YouTube thumbnails or blog article headers.
+The true power of this framework is making it your own. You can customize the entire output by editing two core areas:
 
----
+### The Character Roster (`/characters`)
+Every character gets their own markdown file (e.g., `terra.md`). Use the `_template.md` to create new characters. For each character, you define:
+- **Visuals:** Shape, size, and defining features.
+- **Metaphors:** What technical concepts do they represent? (e.g., A rock represents databases, a lightning bolt represents speed).
+- **Expressions:** How do they look when excited, frustrated, or confused?
+- **Visual References:** Embed reference images so the AI can mimic their exact design!
 
-## How to Use
-
-Third-party Codex/Antigravity skills are triggered by calling the skill in your prompt:
-
-**Square Mode:**
-```text
-Use $brand-illustrations square mode to illustrate: "How API rate limiting works"
-```
-
-**Banner Mode:**
-```text
-Use $brand-illustrations banner mode for a YouTube thumbnail about: "Deploying to production"
-```
+### The Brand DNA (`/brand`)
+- **`style-dna.md`**: Update this file to change the visual aesthetic (e.g., from minimalist doodles to 3D renders, pixel art, or corporate flat vectors).
+- **`composition-patterns.md`**: Define how much negative space is needed, where text should go, and how the canvas should be structured.
 
 ---
 
-## Directory Structure
+## ⚙️ System Architecture
 
-```text
-.
-├── README.md
-├── SKILL.md                    (Main entrypoint for the AI)
-├── characters/                 (Drop your character markdown files here)
-│   ├── _template.md            (Template for creating a new character)
-│   ├── terra.md                (Example character)
-│   └── ...
-├── brand/                      
-│   ├── style-dna.md            (Define your brand colors and line art style)
-│   └── composition-patterns.md (Rules for layout padding and typography space)
-└── system/                     (Internal rules for the AI prompt generation)
-    ├── prompt-template.md      
-    └── qa-checklist.md         
-```
+The framework operates through a set of internal rules located in the `system/` directory:
+- **Prompt Templates:** Translates the AI's logic into specific, structured prompts for image generation models (like Midjourney or DALL-E).
+- **QA Checklist:** Ensures the AI validates its character selection, composition rules, and brand alignment before finalizing an image prompt.
 
 ---
 
-## Setting Up Your Own Brand
+## 🤝 Community & Support
 
-1. Copy `characters/_template.md` to create as many characters as you want. Define their physical shape, colors, personality, and what technical concepts they best represent.
-2. Update `brand/style-dna.md` to include your exact hex codes and brand guidelines.
-3. Call the skill and watch the AI dynamically cast your characters!
+We'd love to see the custom characters and styles you build with this framework!
+- Found a bug or have a feature request? Open an **Issue**.
+- Want to share your custom character templates? Open a **Pull Request**.
+- Have questions? Start a **Discussion**.
+
+Please review our `CONTRIBUTING.md` guidelines before participating.
+
+**License:** MIT License (See `LICENSE` file for details).
