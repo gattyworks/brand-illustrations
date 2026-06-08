@@ -15,6 +15,9 @@
 - **Role in Illustration**: Overseeing things from above, carrying messages through the air.
 
 ## 4. Specific Expressions
-- **Excited**: Swirls rapidly like a mini tornado.
-- **Frustrated**: Turns into a dark storm cloud.
-- **Confused**: Scatters into thin mist.
+- **Excited**: Breezy, blowing wind happily, expanding outward.
+- **Frustrated**: Turns dark gray, small lightning bolts flash inside.
+- **Confused**: Dissipating, becoming a thin hazy fog.
+
+## 5. Visual References
+![Aero Reference](references/aero-ref.png)

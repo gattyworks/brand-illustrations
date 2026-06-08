@@ -18,3 +18,6 @@
 - **Excited**: Trembles slightly, moss/crystals might glow.
 - **Frustrated**: Cracks appear, small rocks fall off.
 - **Confused**: Looks like a blank slate, rigid.
+
+## 5. Visual References
+![Terra Reference](references/terra-ref.png)

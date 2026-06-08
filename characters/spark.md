@@ -15,6 +15,9 @@
 - **Role in Illustration**: Moving quickly between other elements, bringing things to life, delivering messages.
 
 ## 4. Specific Expressions
-- **Excited**: Vibrates rapidly, blindingly bright.
-- **Frustrated**: Zaps things randomly, turns deep orange/red.
-- **Confused**: Energy fizzles, sparks drop to the ground.
+- **Excited**: Vibrates rapidly, glows intensely bright.
+- **Frustrated**: Sharp, erratic jagged angles; red sparks.
+- **Confused**: Drooping, duller yellow, wavy instead of sharp.
+
+## 5. Visual References
+![Spark Reference](references/spark-ref.png)

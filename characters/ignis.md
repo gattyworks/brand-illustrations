@@ -15,6 +15,9 @@
 - **Role in Illustration**: Action-oriented, often showing high-energy states or removing obstacles.
 
 ## 4. Specific Expressions
-- **Excited**: Roars into a larger bonfire, extremely bright.
-- **Frustrated**: Smoke turns black, flares dangerously.
-- **Confused**: Dwindles to a small ember.
+- **Excited**: Flaring up tall, bright white-hot core.
+- **Frustrated**: Dark red, producing heavy black smoke.
+- **Confused**: Flickering, shrinking down to a small ember.
+
+## 5. Visual References
+![Ignis Reference](references/ignis-ref.png)

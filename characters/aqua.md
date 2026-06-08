@@ -15,6 +15,9 @@
 - **Role in Illustration**: Connecting different parts of a system smoothly, carrying objects.
 
 ## 4. Specific Expressions
-- **Excited**: Bubbles up, forms splashing waves.
-- **Frustrated**: Starts to boil, turns into harsh steam.
-- **Confused**: Freezes into ice or loses cohesion into puddles.
+- **Excited**: Splashing upward happily, clear bright blue.
+- **Frustrated**: Boiling, steam rising, turbulent waves.
+- **Confused**: Frozen solid into an ice block or totally still like a puddle.
+
+## 5. Visual References
+![Aqua Reference](references/aqua-ref.png)

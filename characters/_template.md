@@ -22,3 +22,8 @@
 - **Excited**: [e.g., Vibrates rapidly, glows brighter]
 - **Frustrated**: [e.g., Turns red, begins to smoke]
 - **Confused**: [e.g., Form becomes blurry or loses shape]
+
+## 5. Visual References
+*(Embed a reference image here showing the character in multiple emotions, so the AI and human artists can align on the exact visual styling and design.)*
+
+`![Character Reference](references/character-name-ref.png)`
