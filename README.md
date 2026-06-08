@@ -10,8 +10,8 @@ Whether you're writing technical documentation, blog posts, or creating YouTube 
 
 Unlike hardcoded illustration generators, this repository is built to be **dynamic** and **adaptable**. 
 
-1. **You define the cast:** Provide markdown profiles of your characters in the `characters/` folder.
-2. **You define the style:** Set your line-art preferences, color palettes, and typography rules in the `brand/` folder.
+1. **You define the cast:** Provide markdown profiles of your characters in the [`characters/`](characters/README.md) folder.
+2. **You define the style:** Set your line-art preferences, color palettes, and typography rules in the [`brand/`](brand/README.md) folder.
 3. **The AI does the casting:** When you ask the AI to illustrate a concept (e.g., "API Rate Limiting"), the framework's internal logic reads your character files, analyzes their personalities and technical metaphors, and automatically "casts" the best characters for the job.
 
 ### Out-of-the-Box Defaults
@@ -50,58 +50,34 @@ Once installed, simply command your AI to use the framework:
 
 ---
 
-## 🎭 Default Characters
-
-Out of the box, the framework includes a cast of 5 elemental doodle characters.
-
-### Terra 🪨 — The Rock
-A sturdy, blocky rock doodle with a heavy textured surface and expressive eyes. Grounded, reliable, unshakeable. Acts as the anchor of an illustration.
-**Can transform into:** 🧱 brick (foundation) · 🛡️ shield (protection) · 📦 box (storage) · 🛑 stop sign (blocking)
-
-### Spark ⚡ — The Lightning
-An energetic, jagged lightning bolt doodle with thin limbs. Fast, erratic, always moving. Brings things to life or delivers fast messages.
-**Can transform into:** 🚀 rocket (speed) · 🔌 plug (connection) · 💡 flash (idea) · ⏩ fast forward (caching)
-
-### Aqua 💧 — The Water
-A fluid, rounded water droplet doodle. Flexible and smooth. Connects different parts of a system smoothly and carries objects along flows.
-**Can transform into:** 🫗 funnel (pipeline) · 🌊 wave (flow) · 🧊 ice cube (frozen state) · 🚿 shower (cleansing data)
-
-### Ignis 🔥 — The Flame
-A flickering, dynamic flame doodle. Action-oriented, often showing high-energy states, executing processes, or removing obstacles.
-**Can transform into:** ⚙️ engine (execution) · 💥 explosion (error/crash) · 🗑️ incinerator (deletion)
-
-### Aero ☁️ — The Cloud
-A fluffy, soft cloud doodle floating above. Overseeing things from above, carrying messages through the air, distributing load.
-**Can transform into:** 📡 antenna (network) · 🎈 balloon (floating) · 🌫️ fog (obfuscation)
-
-### Expression Range
-All characters share a common set of expressions to show emotion:
-😆 Excited · 😎 Confident · 😕 Confused · 😤 Frustrated · 💡 Eureka · 😊 Proud · 😴 Sleepy · 😨 Scared · 😏 Mischievous · 😢 Crying · 😠 Angry · 🥰 Loving
-
----
-
 ## 🛠 Customizing Your Brand
 
 The true power of this framework is making it your own. You can customize the entire output by editing two core areas:
 
-### The Character Roster (`/characters`)
-Every character gets their own markdown file (e.g., `terra.md`). Use the `_template.md` to create new characters. For each character, you define:
+### [The Character Roster (`/characters`)](characters/README.md)
+Every character gets their own markdown file. Use [`_template.md`](characters/_template.md) to create new characters. For each character, you define:
 - **Visuals:** Shape, size, and defining features.
 - **Metaphors:** What technical concepts do they represent? (e.g., A rock represents databases, a lightning bolt represents speed).
 - **Expressions:** How do they look when excited, frustrated, or confused?
 - **Visual References:** Embed reference images so the AI can mimic their exact design!
 
-### The Brand DNA (`/brand`)
-- **`style-dna.md`**: Update this file to change the visual aesthetic (e.g., from minimalist doodles to 3D renders, pixel art, or corporate flat vectors).
-- **`composition-patterns.md`**: Define how much negative space is needed, where text should go, and how the canvas should be structured.
+### [The Brand DNA (`/brand`)](brand/README.md)
+- **[`style-dna.md`](brand/style-dna.md)**: Update this file to change the visual aesthetic (e.g., from minimalist doodles to 3D renders, pixel art, or corporate flat vectors).
+- **[`composition-patterns.md`](brand/composition-patterns.md)**: Define how much negative space is needed, where text should go, and how the canvas should be structured.
 
 ---
 
-## ⚙️ System Architecture
+## ⚙️ [System Architecture (`/system`)](system/README.md)
 
-The framework operates through a set of internal rules located in the `system/` directory:
-- **Prompt Templates:** Translates the AI's logic into specific, structured prompts for image generation models (like Midjourney or DALL-E).
-- **QA Checklist:** Ensures the AI validates its character selection, composition rules, and brand alignment before finalizing an image prompt.
+The framework operates through a set of internal rules:
+- **[`prompt-template.md`](system/prompt-template.md):** Translates the AI's logic into specific, structured prompts for image generation models (like Midjourney or DALL-E).
+- **[`qa-checklist.md`](system/qa-checklist.md):** Ensures the AI validates its character selection, composition rules, and brand alignment before finalizing an image prompt.
+
+---
+
+## 🖼️ [Generated Examples (`/examples`)](examples/README.md)
+
+Check out the `examples/` directory to see proof-of-concept illustrations generated by the framework.
 
 ---
 
