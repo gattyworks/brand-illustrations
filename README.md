@@ -1,24 +1,18 @@
-# Gattyworks Illustrations
+# Brand Illustrations Framework
 
-> Turn technical concepts into **fun brand illustrations**
-> where five elemental characters teach and explore through visual metaphors.
+> A generalized AI framework to turn concepts into **fun brand illustrations**.
 >
-> Square (1:1) for Social | Banners (16:9) for YouTube | 5 Elements | Codex Skill
+> Define your own cast of characters and brand style. Let the AI auto-select the best characters to act out your technical concepts, workflows, or ideas!
 
 ---
 
 ## What Is This
 
-Gattyworks Illustrations is an AI skill designed for Codex and Antigravity. It generates illustration prompts for the Gattyworks brand, which can then be fulfilled by an image generation AI (like Midjourney or DALL-E).
+The Brand Illustrations Framework is a modular AI skill designed for Codex and Antigravity. It generates prompts for image generation models (like Midjourney or DALL-E) based on your custom IP.
 
-Instead of producing generic diagrams, it creates illustrations involving five expressive characters:
-1. **Terra (Rock)**
-2. **Spark (Lightning)**
-3. **Aqua (Water)**
-4. **Ignis (Fire)**
-5. **Aero (Wind)**
+Instead of hardcoding a specific visual style or cast, this framework dynamically reads character definitions from the `characters/` folder and brand guidelines from the `brand/` folder. The AI automatically selects the best character(s) based on their personality and traits to illustrate the requested concept.
 
-These characters act out visual metaphors representing technical concepts (like APIs, CI/CD pipelines, or databases).
+By default, the repository comes populated with 5 placeholder elemental characters (Terra, Spark, Aqua, Ignis, Aero), but you can delete these and add your own.
 
 ---
 
@@ -29,20 +23,18 @@ These characters act out visual metaphors representing technical concepts (like 
 
 ---
 
-## How to Use Across AI Platforms
+## How to Use
 
-### 🤖 In Codex & Antigravity
-
-Third-party Codex skills are triggered by writing **`Use $gattyworks-illustrations`** in your prompt:
+Third-party Codex/Antigravity skills are triggered by calling the skill in your prompt:
 
 **Square Mode:**
 ```text
-Use $gattyworks-illustrations square mode to illustrate: "How API rate limiting works"
+Use $brand-illustrations square mode to illustrate: "How API rate limiting works"
 ```
 
 **Banner Mode:**
 ```text
-Use $gattyworks-illustrations banner mode for a YouTube thumbnail about: "Deploying to Cloudflare Workers"
+Use $brand-illustrations banner mode for a YouTube thumbnail about: "Deploying to production"
 ```
 
 ---
@@ -52,22 +44,23 @@ Use $gattyworks-illustrations banner mode for a YouTube thumbnail about: "Deploy
 ```text
 .
 ├── README.md
-├── gattyworks-illustrations/      (Codex Skill package)
-│   ├── SKILL.md
-│   ├── assets/
-│   └── references/
-│       ├── gattyworks-ip.md         (character IP + elements + metaphors)
-│       ├── style-dna.md             (visual style + brand colors)
-│       ├── composition-patterns.md  (1:1 and 16:9 layout constraints)
-│       ├── prompt-template.md       (image generator prompt templates)
-│       └── qa-checklist.md          (QA rules for AI agents)
-└── examples/
-    └── images/                      (Example outputs will be placed here)
+├── SKILL.md                    (Main entrypoint for the AI)
+├── characters/                 (Drop your character markdown files here)
+│   ├── _template.md            (Template for creating a new character)
+│   ├── terra.md                (Example character)
+│   └── ...
+├── brand/                      
+│   ├── style-dna.md            (Define your brand colors and line art style)
+│   └── composition-patterns.md (Rules for layout padding and typography space)
+└── system/                     (Internal rules for the AI prompt generation)
+    ├── prompt-template.md      
+    └── qa-checklist.md         
 ```
 
 ---
 
-## Next Steps for Setup
-1. Finalize the visual descriptions for each of the 5 elemental characters in `gattyworks-ip.md`.
-2. Define exact Gattyworks brand colors in `style-dna.md`.
-3. Generate initial examples and place them in `examples/images/`.
+## Setting Up Your Own Brand
+
+1. Copy `characters/_template.md` to create as many characters as you want. Define their physical shape, colors, personality, and what technical concepts they best represent.
+2. Update `brand/style-dna.md` to include your exact hex codes and brand guidelines.
+3. Call the skill and watch the AI dynamically cast your characters!
