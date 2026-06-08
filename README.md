@@ -4,6 +4,9 @@ Welcome to the **Brand Illustrations Framework**, a modular AI architecture desi
 
 Whether you're writing technical documentation, blog posts, or creating YouTube thumbnails, this framework empowers your AI assistant (Codex, Antigravity, Claude, etc.) to automatically generate prompts featuring a consistent cast of characters in your exact brand style.
 
+> [!NOTE]
+> This framework works best when used with AI agents that have built-in **image generation capabilities** (like Codex or Antigravity). If your agent doesn't have image generation tools, it will output highly detailed text prompts that you can manually copy and paste into Midjourney, DALL-E, or other image generators.
+
 ---
 
 ## 🌟 The Core Concept
