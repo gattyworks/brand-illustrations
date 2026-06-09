@@ -14,4 +14,4 @@ A 16:9 landscape reference featuring the core cast together.
 - <img src="aero-ref.png" width="200" alt="Aero">
 - <img src="aqua-ref.png" width="200" alt="Aqua">
 - <img src="ignis-ref.png" width="200" alt="Ignis">
-- <img src="spark-ref.png" width="200" alt="Spark">
+- <img src="flora-ref.png" width="200" alt="Flora">

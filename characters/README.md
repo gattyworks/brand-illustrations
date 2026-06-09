@@ -10,9 +10,9 @@ Out of the box, the framework includes a cast of 5 elemental doodle characters. 
 A sturdy, blocky rock doodle with a heavy textured surface and expressive eyes. Grounded, reliable, unshakeable. Acts as the anchor of an illustration.
 **Can transform into:** 🧱 brick (foundation) · 🛡️ shield (protection) · 📦 box (storage) · 🛑 stop sign (blocking)
 
-### [Spark ⚡ — The Lightning](spark.md)
-An energetic, jagged lightning bolt doodle with thin limbs. Fast, erratic, always moving. Brings things to life or delivers fast messages.
-**Can transform into:** 🚀 rocket (speed) · 🔌 plug (connection) · 💡 flash (idea) · ⏩ fast forward (caching)
+### [Flora 🍃 — The Leaf](flora.md)
+A simple, rounded leaf doodle with a single straight line down the middle. Patient, organic, growing, branching. Represents growth, scalable architecture, and UI component trees.
+**Can transform into:** 🌳 tree (hierarchy) · 🌿 vine (connection) · ♻️ recycle symbol (eco-friendly)
 
 ### [Aqua 💧 — The Water](aqua.md)
 A fluid, rounded water droplet doodle. Flexible and smooth. Connects different parts of a system smoothly and carries objects along flows.
