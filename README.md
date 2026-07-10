@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gattyworks/brand-illustrations/master/.github/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gattyworks/brand-illustrations/master/.github/banner-light.svg">
+  <img alt="Brand Illustrations banner" src="https://raw.githubusercontent.com/gattyworks/brand-illustrations/master/.github/banner-light.svg" width="100%">
+</picture>
+
 # Brand Illustrations Framework 🎨
 
 Welcome to the **Brand Illustrations Framework**, a modular AI architecture designed to transform dry technical concepts into engaging, narrative-driven visual assets.
