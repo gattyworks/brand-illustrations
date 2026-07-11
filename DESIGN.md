@@ -27,3 +27,8 @@ banner. `design/banner.html` is a self-contained reference page showing the
 banner plus the theme tokens it was built from. Referenced from `README.md`
 by a plain relative `<img src>`. The old `.github/banner-*.svg` files are
 removed.
+
+The standalone mascot sprites live alongside it: `design/mascot.svg`
+(static) and `design/mascot-animated.svg` (blinking eyes, CSS inside the
+SVG, honors prefers-reduced-motion). `design/README.md` showcases all of
+these assets.
