@@ -19,7 +19,11 @@ entry in that set.
 cyan, yellow, and pink paint-fleck accent dots — finished off with a
 jaunty beret and a paintbrush.
 
-**Banner files:** `.github/banner-dark.svg` and `.github/banner-light.svg`.
-They're swapped automatically in `README.md` via the
-`prefers-color-scheme` media feature inside a `<picture>` element, so the
-banner matches whichever theme GitHub is rendered in.
+**Banner files:** `design/banner.svg` is the README banner. It is
+project-themed — the whiteboard-white ground, teal accent, and the facts on
+it (the character cast, style DNA) come from this repo itself, not from a
+shared org template — and Doodle is one element of it, not the whole
+banner. `design/banner.html` is a self-contained reference page showing the
+banner plus the theme tokens it was built from. Referenced from `README.md`
+by a plain relative `<img src>`. The old `.github/banner-*.svg` files are
+removed.
